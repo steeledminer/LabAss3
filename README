@@ -1,0 +1,115 @@
+=================================================
+===================READ ME=======================
+=================================================
+*************************************************
+Contents:
+-------------------------------------------------
+1. How to build
+2. How to use
+3. How to remove
+4. Credit
+*************************************************
+How To Build
+-------------------------------------------------
+Open up terminal and change directory to the location
+of 'assignment3.cpp'. Enter the command 'make craps' to
+compile and build the executable. Proceed to run
+the executable, or type './assignment3 < file.dat' in
+terminal, where 'file.dat' is the file you wish to
+read.
+*************************************************
+How to use
+-------------------------------------------------
+This program checks the identified file (refer to
+How to Build) for words, and their frequency. It 
+will only check for words, excluding numbers, 
+symbols and spaces. It can only read up to 30
+words, and each word can only be a maximum 19
+characters, and any extra words or characters
+will be dropped with a prompt. After it has
+searched the file and made it's data, it will
+output it's results in Terminal. For examples
+of how the output works, run the program and direct
+it to "examplefile" or "examplefile2". The following
+shows the file, and it's respective output:
+--------------------------------------------------
+examplefile
+--------------------------------------------------
+Gathering Words From File...
+ 
+ 
+Word:               Frequency: 
+-------------------------------
+this              1
+test              2
+file              2
+is                1
+a                 1
+
+
+
+--------------------------------------------------
+examplefile2
+--------------------------------------------------
+Gathering Words From File...
+ 
+ 
+ERROR: Too many letters. Dumping extra letter.
+ERROR: Too many letters. Dumping extra letter.
+ERROR: Too many letters. Dumping extra letter.
+ERROR: Too many letters. Dumping extra letter.
+ERROR: Too many letters. Dumping extra letter.
+ERROR: Too many letters. Dumping extra letter.
+ERROR: Too many letters. Dumping extra letter.
+ERROR: Too many letters. Dumping extra letter.
+ERROR: Too many letters. Dumping extra letter.
+ERROR: Too many letters. Dumping extra letter.
+ERROR: Too many letters. Dumping extra letter.
+ERROR: Too many letters. Dumping extra letter.
+ERROR: Too many letters. Dumping extra letter.
+ERROR: Too many letters. Dumping extra letter.
+ERROR: Too many letters. Dumping extra letter.
+ERROR: Too many letters. Dumping extra letter.
+Word:               Frequency: 
+-------------------------------
+this              1
+busy              4
+test              2
+file              2
+is                1
+being             1
+a                 2
+and               1
+outputting        1
+as                2
+many              1
+characters        1
+humanly           1
+possible          1
+in                1
+single            1
+sentence          1
+hopefully         1
+getting           1
+all               1
+the               1
+proper            1
+stuff             1
+supercalifragilist1
+
+--------------------------------------------------
+Open the files to see the exact text they hold.
+
+
+
+**************************************************
+How to remove
+--------------------------------------------------
+In terminal go to the directory that 'assignment3'
+is located. Type 'make clean' to remove all but
+source files.
+**************************************************
+Credits
+--------------------------------------------------
+Programmed by Andrew Hingst (5043535).
+**************************************************
